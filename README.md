@@ -8,42 +8,43 @@ Os dados do IBGE são de suma importância para a análise econômica do Brasil,
 
 Caso você deseje extrair outra tabela do SIDRA, este link fornece a documentação necessária para construir o endpoint e extrair os dados: https://apisidra.ibge.gov.br/. O IBGE não exige chave/key para extrair os dados. 
 
-Os dados que foram extraidos no código <kbd>extracaoIBGE.py</kbd> são:
-- PMC na Variação Mensal do Setor de Construção;
-  PMC na Variação Mensal do Setor de Varejo;
-- PMC na Variação Mensal do Setor de Varejo Ampliado;
-- PMC na Variação Mensal do Setor de Veículos;
-- PMC na Variação Acumulada no Ano do Setor de Construção;
-- PMC na Variação Acumulada no Ano do Setor de Varejo;
-- PMC na Variação Acumulada no Ano do Setor de Varejo Ampliado;
-- PMC na Variação Acumulada no Ano do Setor de Veículos;
-- PMC na Variação Acumulada em 12 meses do Setor de Construção;
-- PMC na Variação Acumulada em 12 meses do Setor de Varejo;
-- PMC na Variação Acumulada em 12 meses do Setor de Varejo Ampliado;
-- PMC na Variação Acumulada em 12 meses do Setor de Veículos;
-- PMS na Variação Mensal;
+Os dados que foram extraidos no código [extracaoIBGE.py](extracaoIBGE.py) são:
+- PMC na Variação Mensal, Anual e em 12 meses do Setor de Construção;
+  PMC na Variação Mensal, Anual e em 12 meses do Setor de Varejo;
+- PMC na Variação Mensal, Anual e em 12 meses do Setor de Varejo Ampliado;
+- PMC na Variação Mensal, Anual e em 12 meses do Setor de Veículos;
+- PMS na Variação Mensal, Anual e em 12 meses;
 - PMS na Variação Mensal (comparado ao mesmo mês do ano anterior);
-- PMS na Variação Acumulada no Ano;
-- PMS na Variação Acumulada em 12 meses;
-- IPCA na Variação Mensal;
-- IPCA na Variação Acumulada no Ano;
-- IPCA na Variação Acumulada em 12 meses;
-- INPC na Variação Mensal;
-- INPC na Variação Acumulada no Ano;
-- INPC na Variação Acumulada em 12 meses;
-- IPCA-15 na Variação Mensal;
-- IPCA-15 na Variação Acumulada no Ano;
-- IPCA-15 na Variação Acumulada em 12 meses;
-- PPI na Variação Mensal;
-- PPI na Variação Acumulada no Ano;
-- PPI na Variação Acumulada em 12 meses;
-- PIM-PF da Indústria Geral na Variação Mensal;
-- PIM-PF da Indústria Geral na Variação Acumulada no Ano;
-- PIM-PF da Indústria Geral na Variação Acumulada em 12 meses;
+- IPCA na Variação Mensal, Anual e em 12 meses;
+- INPC na Variação Mensal, Anual e em 12 meses;
+- IPCA-15 na Variação Mensal, Anual e em 12 meses;
+- PPI na Variação Mensal, Anual e em 12 meses;
+- PIM-PF da Indústria Geral na Variação Mensal, Anual e em 12 meses;
 - PIB Total na Comparação com o mesmo Trimestre do Ano Anterior;
 - PIB Total na Comparação com o Trimestre Imediatamente Anterior;
 - PIB Total no Acumulado no Ano;
 - PIB Total no Acumulado em 4 Trimestres.
 
-
+## Ipeadata/Brasil
+O Ipeadata é, sem sombra de dúvidas, uma das melhores bases de dados disponíveis no Brasil. Para pesquisadores e programadores, os pacotes disponibilizados pela comunidade (utilizo o <kbd>ipeadatapy</kbd>) permitem acesso a base de dados que de outra forma seriam complicados de se acessar e atualizar automaticamente. Portanto, com vista para o código [extracaoIpeadata.py](extracaoIpeadata.py) obtive os seguintes dados:
+- SELIC;
+- Operações de Crédito, Saldo da Carteira, Recursos Livres Total na Variação Mensal/Brasil;
+- Operações de Crédito, Saldo da Carteira Total na Variação Mensal/Brasil;
+- IBC-Br Índice Real Dessazonalizado (2002=100) na Variação Mensal;
+- M0: papel-moeda emitido em milhões de reais;
+- M1: Depósitos à Vista + PMPP em milhões de reais;
+- M2: M1 + Poupança + Títulos Privados em milhões de reais;
+- M3: M2 + Cotas de Fundos + Operações Comprom. de Títulos Públicos e Federais em milhões de reais;
+- M4: M3 + Títulos emitidos pelo Governo Federal em milhões de reais;
+- Dívida Interna Federal, fora do BC, posição em carteira, fim de período, em milhões de reais;
+- Necessidade de Financiamento do Setor Público Acum. em 12 meses em  milhões de reais;
+- Índice de Confiança do Consumidor da Fecomercio/SP;
+- Índice de Confiança do Empre´sario Industrial da CNI;
+- Divida Interna Liquida sobre o PIB (%) do governo federal e Banco Central;
+- IGP-M na Variação Mensal;
+- IGP-M na Variação Acumulada em 12 meses;
+- IGP-10 na Variação Mensal;
+- IGP-10 na Variação Acumulada em 12 meses;
+- IGP-DI na Variação Mensal;
+- IGP-DI na Variação Acumulada em 12 meses.
 
