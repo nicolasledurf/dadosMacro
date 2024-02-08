@@ -39,7 +39,7 @@ O Ipeadata é, sem sombra de dúvidas, uma das melhores bases de dados disponív
 - Dívida Interna Federal, fora do BC, posição em carteira, fim de período, em milhões de reais;
 - Necessidade de Financiamento do Setor Público Acum. em 12 meses em  milhões de reais;
 - Índice de Confiança do Consumidor da Fecomercio/SP;
-- Índice de Confiança do Empre´sario Industrial da CNI;
+- Índice de Confiança do Empresário Industrial da CNI;
 - Divida Interna Liquida sobre o PIB (%) do governo federal e Banco Central;
 - IGP-M na Variação Mensal;
 - IGP-M na Variação Acumulada em 12 meses;
