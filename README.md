@@ -50,3 +50,27 @@ O Ipeadata é, sem sombra de dúvidas, uma das melhores bases de dados disponív
 - IGP-DI na Variação Mensal;
 - IGP-DI na Variação Acumulada em 12 meses.
 
+## FED ou FRED/USA
+O FED, via FRED (https://fred.stlouisfed.org/docs/api/fred/)https://fred.stlouisfed.org/docs/api/fred/), é a melhor base de dados que encontrei para obter dados macroeconômicos dos Estados Unidos. Alguns dados são fornecidos diretamente pelo FED, mas outros apenas pertencem a outras organizações/departamentos - e estes podem demorar alguns dias para atualizar para os valores mais recentes. Para que a API do FRED funcione, é necessário que você se cadastre e obtenha uma key para a API. Os dados que estão no código [extracaoFED.py](extracaoFED.py) são: 
+- Meio Monetário M1;
+- Meio Monetário M2;
+- payroll;
+- GDP (Gross Domestic Product) em bilhões de dólares;
+- GDP (Gross Domestic Product) na variação do trimestre comparado ao trimestre imediatamente anterior;
+- GDP (Gross Domestic Product) na variação acumulada em 4 trimestres;
+- GDP (Gross Domestic Product) na variação acumulada no ano;
+- Juros de Hipoteca de 30 anos;
+- Ganho Médio por Hora Trabalhada, Total Privado, na Variação Mensal;
+- Ganho Médio por Hora Trabalhada, Total Privado, na Variação Acumulada no Ano;
+- Variação Mensal, Acumulada no Ano e em 12 meses do CPI;
+- Variação Mensal, Acumulada no Ano e em 12 meses do PCE;
+- Variação Mensal, Acumulada no Ano e em 12 meses do núcleo do CPI;
+- Variação Mensal, Acumulada no Ano e em 12 meses do núcleo do PCE;
+- Variação Mensal, Acumulada no Ano e em 12 meses do PPI;
+- Variação Mensal, Acumulada no Ano e em 12 meses da Produção Industrial;
+- Variação Mensal, Acumulada no Ano e em 12 meses das Vendas no Varejo;
+- Pedidos iniciais por Seguro Desemprego em pessoas;
+- FFR - Taxa Básica de juros Americana, limite máximo e mínimo;
+- Títulos do Tesouro Americano com vencimento em 5, 10 e 20 anos, indexados pela inflação;
+- Variação de novos peiddos para manufatura: bens duráveis excento transporte;
+- #Expectativa de Inflação da Universidade de Michigan.
