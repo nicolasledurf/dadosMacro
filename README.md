@@ -1,6 +1,8 @@
 ## Extração de Dados Macroeconômicos
 Códigos para extração e tratamento de dados macroeconômicos do Brasil, EUA, Europa, China e outros que forem de relevância para análises econômicas. O código é feito no Python e os dados são obtidos, na maioria dos casos, via endpoints. O objetivo é retornar, essencialmente, duas colunas: data (em string) e valor. Isso porque os códigos aqui postos são baseados num projeto particular denominado 'Atlas', a qual não possui repositório público. 
 
+*É importante destacar que os códigos são guias e são baseados em outros projetos, e o usuário precisará alterar conforme a sua necessidade. Muitas das coisas que programei foram feitas com uma determinada finalidade, então poderá haver coisa redundante ou inútil no código. Devido ao trabalho e tempo que isso exigiria, não foquei em adpatar os códigos para que tivessem uma finalidade própria*
+
 Abaixo, os dados disponíveis estão organizados por fonte e país. 
 
 ## IBGE/Brasil
