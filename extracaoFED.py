@@ -177,16 +177,10 @@ m1EUA = tratFEDIndex('M1REAL')
 #Meio Monetário M2/EUA
 m2EUA = tratFEDIndex('M2REAL')   
     
-#pedidos de bens duráveis/EUA
-ordersDurableGoods = tratFEDIndex('ADXTNO')   
-    
-#Expectativa de Inflação/EUA
-expectInflacaoEUA = tratFEDIndex('MICH')   
-    
 #payroll/EUA
 payrollEUA = tratFEDpayroll('PAYEMS')
     
-#GDP (Gross Domestic Product) em Valor Bruto em bilhões de dólares
+#GDP (Gross Domestic Product) em bilhões de dólares
 gdpBruto = tratFEDIndex('GDP')
 
 #GDP (Gross Domestic Product) na variação do trimestre comparado
@@ -207,7 +201,7 @@ GDPAnualEUA = GDPAnual(gdp)
 
 del gdpvar, gdp
 
-#Juros Hipoteca de 30 anos
+#Juros de Hipoteca de 30 anos
 jurosHipoteca30anos = tratFEDIndex('MORTGAGE30US')
     
 #Ganho Médio por Hora Trabalhada, Total Privado, na Variação Mensal
