@@ -76,27 +76,27 @@ O FED, via FRED (https://fred.stlouisfed.org/docs/api/fred/)https://fred.stlouis
 - #Expectativa de Inflação da Universidade de Michigan.
 
 ## BCE/Europa
-Para dados europeus, existem diversas fontes possíveis. Por questão de ocnfiança e facilidade, acabei optando por utilizar a API do Banco Central Europeu, <del>que não é a coisa mais simples do mundo</del>, que agrega dezenas de dados sobre o continente. Para acessar os dados, não é necessário nenhuma key ou algo semelhante e você pode ler o método de funcionamento neste link: https://data.ecb.europa.eu/help/api/overview. Os dados que retirei desta fonte estão disponíveis no código <kbd>[extracaoBCE.py](extracaoBCE.py)</kbd> e são:
+Para dados europeus, existem diversas fontes possíveis. Por questão de confiança e facilidade, acabei optando por utilizar a API do Banco Central Europeu, <del>que não é a coisa mais simples do mundo</del>, que agrega dezenas de dados sobre o continente. Para acessar os dados, não é necessário nenhuma key ou algo semelhante e você pode estudar o método de funcionamento neste link: https://data.ecb.europa.eu/help/api/overview. Os dados que retirei desta fonte estão disponíveis no código <kbd>[extracaoBCE.py](extracaoBCE.py)</kbd> e são:
 - Agregados Monetários (M1, M2 e M3);
 - Juros Básicos definidos pelo BCE;
 - PPI, CPI e Núcleo do CPI na Variação Mensal, Acumulada no Ano e Acumulada em 12 meses;
 - Produção Industrial.
 
 ## DBNOMICS/China
-Obter dados macroeconômicas do Chinês também não é algo muito fácil. Não consegui encontrar - ou efetuar - uma extração direta de alguma organização chinesa, então optei por utilizar um pacote para python fornecido pela comunidade para extrair dados do DBnomics (https://db.nomics.world/), que agrega dados de diversos banco de dados ao redor do mundo. **É importante ressaltar que os dados chineses que possuem um período máximo para trás de 12 meses, então se você deseja utilizar uma longa série histórica deverá armazenar os dados ao longo do tempo em algum banco de dados**. Também, você notará que alguns dados possuem meses em branco, e isso ocorre porque o governo chinês não divulga os dados naqueles meses. 
+Obter dados macroeconômicas do mercado chinês também não é algo muito fácil. Não consegui encontrar - ou efetuar - uma extração direta de alguma organização chinesa, então optei por utilizar um pacote para python fornecido pela comunidade para extrair dados do DBnomics (https://db.nomics.world/), que agrega diversos bancos de dados ao redor do mundo. **É importante ressaltar que os dados chineses possuem um período histórico máximo de 12 meses, então se você deseja utilizar uma longa série histórica deverá armazenar os dados ao longo do tempo em algum banco de dados**. Também, você notará que alguns dados estão vazios em alguns períodos, e isso ocorre quando o governo opta por não divulgar tais dados. 
 
 Os dados que disponibilizei no código <kbd>[extracaoDBeconomics.py](extracaoDBeconomics.py)</kbd> são:
 - PIB na Variação Mensal;
 - Agregados Monetários (M0, M1 e M2);
 - Taxa de desemprego;
 - Exportações e Importações Correntes e Acumuladas;
-- Vendas no Varejo, Compras de Gerentes (PMI Manufatura) e Produção Industrial (PMI Industria);
+- Vendas no Varejo, Compras de Gerentes (PMI Manufatura) e Produção Industrial (PMI Industrial);
 - PPI e CPI na Variação Mensal, Variação Acumulada no Ano e Variação Acumulada em 12 meses.
 
-## Yahoo Finance/Preços
+## Yahoo Finance/Preços e índice
 Por fim, para extrair os dados de preços futuros de grãos e do petróleo e índices de mercado, utilizei da biblioteca <kbd>yfinance</kbd> que extrai dados diários de preços do Yahoo Finance. Inicialmente defini que eram somente necessários dados dos últimos 24 meses (no código está como '24mo'), mas o usuário poderá alterar conforme sua necessidade. Os dados que disponibilizei no código <kbd>[extracaoYahooFinance.py](extracaoYahooFinance.py)</kbd>são:
 - DXY;
 - Preços Futuros da Soja, Milho e Petróleo.
 
 ### Próximos passos
-Existem outra dezenas de indicadores que ainda tenho interesse em extrair automaticamente e ainda não consegui - um pessoalmente desafiador é os dados do CAGED com as atualizações mensais que também são feitas para períodos anteriores até 20 meses. Conforme for avançando, incluirei neste repositório. 
+Existem outra dezenas de indicadores que ainda tenho interesse em extrair e ainda não consegui - um pessoalmente desafiador é os dados do CAGED com as atualizações mensais feitas para períodos anteriores até 20 meses. Conforme for avançando, incluirei neste repositório. 
