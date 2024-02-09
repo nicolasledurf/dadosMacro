@@ -28,7 +28,7 @@ Os dados que foram extraidos no código <kbd>[extracaoIBGE.py](extracaoIBGE.py)<
 - PIB Total no Acumulado em 4 Trimestres.
 
 ## Ipeadata/Brasil
-O Ipeadata é, sem sombra de dúvidas, uma das melhores bases de dados disponíveis no Brasil. Para pesquisadores e programadores, os pacotes disponibilizados pela comunidade (utilizo o <kbd>ipeadatapy</kbd>) permitem acesso a base de dados que de outra forma seriam complicados de se acessar e atualizar automaticamente. Portanto, com vista para o código <kbd>[extracaoIpeadata.py](extracaoIpeadata.py)</kbd> obtive os seguintes dados:
+O Ipeadata é, sem sombra de dúvidas, uma das melhores bases de dados disponíveis no Brasil. Para pesquisadores e programadores, os pacotes disponibilizados pela comunidade (utilizo o <kbd>ipeadatapy</kbd>) permitem acesso a bases de dados que de outra forma seriam complicados de acessar e extrair. Portanto, com vista para o código <kbd>[extracaoIpeadata.py](extracaoIpeadata.py)</kbd> obtive os seguintes dados:
 - SELIC;
 - Operações de Crédito, Saldo da Carteira, Recursos Livres Total na Variação Mensal/Brasil;
 - Operações de Crédito, Saldo da Carteira Total na Variação Mensal/Brasil;
